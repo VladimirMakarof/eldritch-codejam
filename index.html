@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>eldritchcodejam</title>
+  </head>
+  <body>
+    <div class="bottom_blocks">
+      <div class="difficulties_block">
+        <div class="hidden">
+          <h2>Выбери сложность:</h2>
+          <ul class="difficulties"></ul>
+        </div>
+        <div class="hidden">
+          <h2>Замешать колоду:</h2>
+          <button id="button_shuffle">Замешать</button>
+        </div>
+      </div>
+
+      <div class="counter_block hidden">
+        <h2>Колода:</h2>
+        <div class="stages_block"></div>
+      </div>
+
+      <div class="deck_block hidden">
+        <h2>Карты:</h2>
+        <div class="current_cards">
+          <div class="cards_back"></div>
+          <div class="cards_face"></div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>Выбери древного:</h2>
+      <ul class="ancients"></ul>
+    </div>
+
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
